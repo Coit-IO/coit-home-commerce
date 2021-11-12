@@ -23,13 +23,13 @@
                     <div class="col text-center">
                         <img class="order-logo" src="/static/icons/Doorward_Logo_Full.svg" alt="Doorward Merchants" />
                         <h3>
-                            നിങ്ങളുടെ ഓർഡറിന് നന്ദി !
+                            Thank you for your order !
                         </h3>
-                        <p>ഓർഡർ നമ്പർ</p>
+                        <p>Order Number</p>
                         <p class="mg-bt"><strong>{{.order.OrderId}}</strong></p>
-                        <p>ഷിപ്പിംഗ് നമ്പർ</p>
+                        <p>Shipping Number</p>
                         <p class="mg-bt"><strong>{{.order.ShippingTrackingId}}</strong></p>
-                        <p>നിങ്ങൾ നൽകേണ്ട വില ( രൂപ )</p>
+                        <p>Price</p>
                         <p class="mg-bt"><strong>{{renderMoney .total_paid}}</strong></p>
                     </div>
                 </div>

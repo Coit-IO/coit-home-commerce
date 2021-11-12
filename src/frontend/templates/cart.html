@@ -20,9 +20,9 @@
         <div class="cart-bg">
             <div class="container py-3 px-lg-5 py-lg-5">
                 {{ if eq (len $.items) 0 }}
-                    <h3>നിങ്ങൾ ഇത് വരെ ഒന്നും തിരഞ്ഞെടുത്തിട്ടില്ല!</h3>
-                    <p>നിലവിൽ തിരഞ്ഞെടുത്തവ ഇവിടെ കാണാൻ കഴിയും.</p>
-                    <a class="btn btn-info" href="/" role="button">വീണ്ടും തിരയാൻ ഇവിടെ തൊടുക &rarr; </a>
+                    <h3>You have not selected anything yet!</h3>
+                    <p>Your current selection.</p>
+                    <a class="btn btn-info" href="/" role="button">Shop Again &rarr; </a>
                 {{ else }}
 
                     <div class="row mb-3 py-2">
@@ -33,8 +33,8 @@
                         </div>
                         <div class="col text-right">
                             <form method="POST" action="/cart/empty">
-                                <button class="btn btn-secondary empty-btn" type="submit">നിങ്ങൾ തിരഞ്ഞെടുത്ത സാധനങ്ങൾ</button>
-                                <a class="btn btn-info" href="/" role="button">കൂടുതൽ സാധങ്ങൾ ചേർക്കുക</a>
+                                <button class="btn btn-secondary empty-btn" type="submit">Your selected item</button>
+                                <a class="btn btn-info" href="/" role="button">Shop Again</a>
                             </form>
 
                         </div>
@@ -69,21 +69,21 @@
 
                     <div class="row py-3 my-2 checkout">
                         <div class="col-12 col-lg-8 offset-lg-2">
-                            <h3 class="text-center">നിങ്ങളുടെ വിവരങ്ങൾ</h3>
+                            <h3 class="text-center">Your Detail</h3>
                             <form action="/cart/checkout" method="POST">
                                 <div class="form-row">
                                     <div class="col-md-5 mb-3">
-                                            <label for="email">ഇമെയിൽ</label>
+                                            <label for="email">Email</label>
                                             <input type="email" class="form-control" id="email"
                                                 name="email" value="moses@doorward.tech" required>
                                         </div>
                                     <div class="col-md-5 mb-3">
-                                        <label for="street_address">വിലാസം</label>
+                                        <label for="street_address">Address</label>
                                         <input type="text" class="form-control"  name="street_address"
                                             id="street_address" value="ബേസിൽ ബേക്കറി, തവളപ്പാറ" required>
                                     </div>
                                     <div class="col-md-2 mb-3">
-                                        <label for="zip_code">പിൻകോഡ്</label>
+                                        <label for="zip_code">Pincode</label>
                                         <input type="text" class="form-control"
                                             name="zip_code" id="zip_code" value="683581" required pattern="\d{5,6}">
                                     </div>
@@ -91,20 +91,20 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="col-md-5 mb-3">
-                                            <label for="city">അടുത്തുള്ള സിറ്റി</label>
+                                            <label for="city">City</label>
                                             <input type="text" class="form-control" name="city" id="city"
                                                 value="അങ്കമാലി" required>
                                         </div>
                                     <div class="col-md-2 mb-3">
-                                        <label for="state">സംസ്ഥാനം</label>
+                                        <label for="state">State</label>
                                         <input type="text" class="form-control" name="state" id="state"
                                             value="കേരളം" required>
                                     </div>
                                     <div class="col-md-5 mb-3">
-                                        <label for="country">രാജ്യം</label>
+                                        <label for="country">Country</label>
                                         <input type="text" class="form-control" id="country"
                                             placeholder="Country Name"
-                                            name="country" value="ഇന്ത്യ" required>
+                                            name="country" value="Country" required>
                                     </div>
                                 </div>
                                 <div class="form-row">
@@ -152,7 +152,7 @@
                                     </div>
                                 </div>
                                 <div class="form-row center-contents last-row">
-                                    <button class="btn btn-info" type="submit">ഓർഡർ ചെയ്യുക</button>
+                                    <button class="btn btn-info" type="submit">Place Order</button>
                                 </div>
                             </form>
                         </div>
