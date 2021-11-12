@@ -1,9 +1,9 @@
 <p align="center">
-<img src="src/frontend/static/icons/Hipster_HeroLogoCyan.svg" width="300" alt="Coit Home Ecommerce" />
+<img src="src/frontend/static/icons/coit-logo-light.png" width="300" alt="Coit Home Ecommerce" />
 </p>
 
 
-![Continuous Integration](https://coit-website.s3.ap-south-1.amazonaws.com/images/coit+ai.png)
+![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Master/Release/badge.svg)
 
 
 **Coit Home Ecommerce** is a cloud-native microservices demo application.
