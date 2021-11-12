@@ -1,7 +1,7 @@
 # Development Principles
 
 > **Note:** This document outlines guidances behind some development decisions
-> behind the Online Boutique demo application.
+> behind the Coit Home Ecommerce demo application.
 
 ### Minimal configuration
 
