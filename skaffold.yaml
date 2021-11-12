@@ -50,7 +50,7 @@ deploy:
   kubectl:
     flags:
       global:
-      - --namespace=merchants
+      - --namespace=default
     manifests:
     - ./kubernetes-manifests/**.yaml
 profiles:

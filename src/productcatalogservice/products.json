@@ -2,8 +2,8 @@
     "products": [
         {
             "id": "WOPV6BDFSR",
-            "name": "തൂമ്പ",
-            "description": "30 സെന്റിമീറ്റർ നീളം, 20 സെന്റിമീറ്റർ വീതി. കൃഷിക്ക്",
+            "name": "Hoe",
+            "description": "30 cm length, 20 cmd width. For Agriculture ",
             "picture": "/static/img/products/hoe.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -14,8 +14,8 @@
         },
         {
             "id": "WOPV6BDFTO",
-            "name": "ടൂൾ കിറ്റ്",
-            "description": "ചുറ്റിക, സ്ക്രൂ ഡ്രൈവർ, പ്ലയെർ, സ്പാനർ, എന്നിവ",
+            "name": "Tool Kit",
+            "description": "Hammer, Screw Driver, plyer, spanner",
             "picture": "/static/img/products/toolkit.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -26,8 +26,8 @@
         },
         {
             "id": "WOPV6BDFAA",
-            "name": "ആണി",
-            "description": "1, 1.5, 2, 2.5, 3 ഇഞ്ചു അളവുകളിൽ",
+            "name": "Nails",
+            "description": "1, 1.5, 2, 2.5, 3 inch",
             "picture": "/static/img/products/nail.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -38,8 +38,8 @@
         },
         {
             "id": "WOPV6BDFSC",
-            "name": "സ്കൂൾ ബാഗ്",
-            "description": "കുട്ടികളുടെ സ്കൂൾ ബാഗുകൾ",
+            "name": "School Bag",
+            "description": "School Bags for Kids",
             "picture": "/static/img/products/schoolbag.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -50,8 +50,8 @@
         },
         {
             "id": "WOPV6BDFKU",
-            "name": "കുട്ടികളുടെ ചെരുപ്പ്",
-            "description": "കുട്ടികൾക്ക് വീട്ടിൽ ഇടാവുന്ന സ്ലിപ്പേഴ്‌സ്",
+            "name": "Kids Chappal",
+            "description": "Kids Chappal for Home Use",
             "picture": "/static/img/products/slippers-kids.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -62,8 +62,8 @@
         },
         {
             "id": "WOPV6BDFKI",
-            "name": "മുതിർന്നവരുടെ ചെരുപ്പ്",
-            "description": "വീട്ടിൽ ഇടാവുന്ന തരം ചെരുപ്പുകൾ",
+            "name": "Adult Chappal",
+            "description": "Adult Chappal for Home Use",
             "picture": "/static/img/products/slippers.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -74,8 +74,8 @@
         },
         {
             "id": "WOPV6BDFBR",
-            "name": "ചൂല്",
-            "description": "വീടിന്റെ അകം വൃത്തി ആക്കുന്ന ചൂല്",
+            "name": "Broom",
+            "description": "Broom for Home Use",
             "picture": "/static/img/products/broom.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -86,8 +86,8 @@
         },
         {
             "id": "WOPV6BDFTE",
-            "name": "ടീസ്പൂൺ",
-            "description": "ടീസ്പൂൺ",
+            "name": "Teaspoon",
+            "description": "teaspoon",
             "picture": "/static/img/products/teaspoon.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -98,8 +98,8 @@
         },
         {
             "id": "WOPV6BDFKA",
-            "name": "കത്തി",
-            "description": "വെജിറ്റബ്ൾസ് കട്ട് ചെയ്യുന്ന കത്തി",
+            "name": "Knife",
+            "description": "Knife to cut vegetables",
             "picture": "/static/img/products/knife.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -110,8 +110,8 @@
         },
         {
             "id": "WOPV6BDFCH",
-            "name": "ചെടിച്ചട്ടി",
-            "description": "വ്യാസം 18 സെന്റിമീറ്റർ, പൊക്കം 25 സെന്റിമീറ്റർ ",
+            "name": "Planting Pots",
+            "description": "18 cm, 25 cmd height ",
             "picture": "/static/img/products/pot.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -122,8 +122,8 @@
         },
         {
             "id": "OLJCESPC7Z",
-            "name": "കിണർ വല",
-            "description": "3 മീറ്റർ വീതിയും നീളവും, ചതുര ആകൃതി.",
+            "name": "Net",
+            "description": "3 meter length, square shape.",
             "picture": "/static/img/products/wellnet.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -134,8 +134,8 @@
         },
         {
             "id": "WOPV6BDFIR",
-            "name": "ഇരുമ്പു ഷീറ്റ്",
-            "description": "കിളിക്കൂട്, പട്ടിക്കൂട് എന്നിവ ഉണ്ടാക്കാൻ ഇരുമ്പു ഷീറ്റ്",
+            "name": "Iron Net",
+            "description": "Iron Net for birds nest",
             "picture": "/static/img/products/ironnet.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -146,8 +146,8 @@
         },
         {
             "id": "WOPV6BDFCL",
-            "name": "ക്ലിപ്പ്",
-            "description": "അഴയിലും മറ്റും ഉപയോഗിക്കാവുന്ന ക്ലിപ്പ്",
+            "name": "Clips",
+            "description": "Clips for handing clothes",
             "picture": "/static/img/products/clip.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
@@ -158,8 +158,8 @@
         },
         {
             "id": "WOPV6BDFBS",
-            "name": "ടോയ്ലറ്റ് ബ്രഷ്",
-            "description": "ടോയ്ലറ്റ് വൃത്തി ആക്കുന്ന ബ്രഷ്",
+            "name": "Toilet Brush",
+            "description": "Toilet Clearning Brush",
             "picture": "/static/img/products/toiletbrush.jpg",
             "priceUsd": {
                 "currencyCode": "INR",
